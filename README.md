@@ -8,7 +8,7 @@ Originally inspired by the SuperSimpleDev JavaScript course and expanded with ad
 
 Play here:
 
-https://StarCoderSC.github.io/rock-paper-scissors-deluxe/
+https://ithub.io/rock-paper-scissors-deluxe/
 
 ## Features
 
