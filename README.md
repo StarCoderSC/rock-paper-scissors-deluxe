@@ -4,6 +4,12 @@ An enhanced Rock Paper Scissors game built with HTML, CSS and Javascript.
 
 Originally inspired by the SuperSimpleDev JavaScript course and expanded with additional features and improvements.
 
+## Live Demo
+
+Play here:
+
+https://StarCoderSC.github.io/rock-paper-scissors-deluxe/
+
 ## Features
 
 ### 🎮 Gameplay
