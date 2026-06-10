@@ -64,11 +64,28 @@ All progress is saved using Local Storage
 This project began as a part of the SuperSimpleDev
 JavaScript Full Course and was later expanded with custom features and UI improvements.
 
+# Screenshots
+
+## Main Game
+
+![Main Game](images/main-game.png)
+
+## Statistics
+
+![Stats](images/stats-panel.png)
+
+## Achievements
+
+![Achievements](images/achievements.png)
+
+## Favourite Move
+
+![Favourite Move](images/favourite-move.png)
+
 ## Future Improvements
 
 - Match history
 - Theme switcher
 - Sound effects
 - Responsive design improvements
-
 ---
