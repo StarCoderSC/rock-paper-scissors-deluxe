@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/gameSection.css">
+    <link rel="stylesheet" href="styles/sideBar.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="game-section">
+
+        <h1 class="title">Rock Paper Scissors</h1>
+
+        <p class="subtitle">
+          Can you beat the computer?
+        </p>
+
+        <div class="move-btns">
+
+          <button class="move-btn js-rock-btn">
+            <img src="images/rock-emoji.png">
+          </button>
+
+          <button class="move-btn js-paper-btn">
+            <img src="images/paper-emoji.png">
+          </button>
+
+          <button class="move-btn js-scissors-btn">
+            <img src="images/paper-emoji.png">
+          </button>
+
+        </div>
+
+        <p class="js-result result"></p>
+
+        <p class="js-moves moves"></p>
+
+        <p class="js-score score"></p>
+
+        <div class="controls">
+
+          <button class="reset-btn js-reset-btn">
+            Reset Score
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="sidebar">
+        <div class="stats-panel">
+
+          <h2>
+            🏆 Personal Best
+          </h2>
+
+          <p class="js-highest-wins">
+            Highest Wins: 0
+          </p>
+
+          <p class="js-games-played">
+            Games Played: 0
+          </p>
+
+          <p class="js-win-rate">
+            Win Rate: 0%
+          </p>
+
+          <p class="js-best-streak">
+            Best Streak: 0
+          </p>
+        
+        </div>
+
+        <div class="achievements-panel">
+          <h2>🏅 Achievements</h2>
+
+          <p class="js-first-win"></p>
+
+          <p class="js-ten-wins">🔒 10 Wins</p>
+
+          <p class="js-fifty-games">🔒 50 Games Played</p>
+
+          <p class="js-hundred-games">🔒 100 Games Played</p>
+
+          <p class="js-five-winstreak">🔒 Win Streak Master</p>
+
+          <p class="js-five-hundred-games">🔒 Veteran</p>
+
+          <p class="js-hundred-wins">🔒 Champion</p>
+
+          <p class="js-ten-loses">🔒 Unlucky</p>
+
+          <p class="js-twenty-ties">🔒 Peacekeeper</p>
+
+          <p class="js-rock-hundred-times">🔒 Rock Enjoyer</p>
+
+        </div>
+
+        <div class="favourite-panel">
+          <h2>🗿 Favourite Move</h2>
+          <p class="js-favourite-move"></p>
+          <p class="js-times-used"></p>
+        </div>
+      </div>
+        
+    </div>
+
+    <script src="scripts/rps.js"></script>
+  </body>
+</html>

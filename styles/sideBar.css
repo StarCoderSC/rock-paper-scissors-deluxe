@@ -1,0 +1,42 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stats-panel,
+.achievements-panel,
+.favourite-panel {
+  width: 250px;
+  border: 1px solid white;
+  background-color: rgb(35, 35, 35);
+  padding: 20px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.stats-panel:hover,
+.achievements-panel:hover,
+.favourite-panel:hover {
+  transform: translate(-5px);
+  transition: 0.3s;
+}
+
+.achievements-panel {
+  height: 250px;
+  overflow: scroll;
+}
+
+.unlocked {
+  color: limegreen;
+}
+
+.locked {
+  color: grey;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
